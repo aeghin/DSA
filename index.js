@@ -11,4 +11,15 @@ function findNemo(array) {
     console.log("call to find nemo took " + (t1 - t0) + " milliseconds")
 };
 
-findNemo(large);
+findNemo(nemo); // O(n) - linear time
+
+const boxes = [0, 1, 2, 3, 4, 5, 6];
+
+
+// O(1) - constant time
+function logFirstTwoBoxes(boxes) {
+    console.log(boxes[0])
+    console.log(boxes[1])
+};
+
+logFirstTwoBoxes(boxes);
