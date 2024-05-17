@@ -18,8 +18,10 @@ const boxes = [0, 1, 2, 3, 4, 5, 6];
 
 // O(1) - constant time
 function logFirstTwoBoxes(boxes) {
-    console.log(boxes[0])
-    console.log(boxes[1])
+    console.log(boxes[0]);
+    console.log(boxes[1]);
+    console.log(boxes[3]);
+    console.log(boxes[4]);
 };
 
 logFirstTwoBoxes(boxes);
